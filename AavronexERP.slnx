@@ -1,3 +1,27 @@
 <Solution>
-  <Project Path="AavronexERP/AavronexERP.csproj" />
+  <!-- Shared Libraries -->
+  <Project Path="src/Shared/Aavronex.Core/Aavronex.Core.csproj" />
+  <Project Path="src/Shared/Aavronex.Common/Aavronex.Common.csproj" />
+  <Project Path="src/Shared/Aavronex.Data/Aavronex.Data.csproj" />
+  
+  <!-- ERP Module -->
+  <Project Path="src/Modules/ERP/Aavronex.ERP/Aavronex.ERP.csproj" />
+  <Project Path="src/Modules/ERP/Aavronex.ERP.Domain/Aavronex.ERP.Domain.csproj" />
+  <Project Path="src/Modules/ERP/Aavronex.ERP.Application/Aavronex.ERP.Application.csproj" />
+  <Project Path="src/Modules/ERP/Aavronex.ERP.Infrastructure/Aavronex.ERP.Infrastructure.csproj" />
+  
+  <!-- CRM Module -->
+  <Project Path="src/Modules/CRM/Aavronex.CRM/Aavronex.CRM.csproj" />
+  <Project Path="src/Modules/CRM/Aavronex.CRM.Domain/Aavronex.CRM.Domain.csproj" />
+  <Project Path="src/Modules/CRM/Aavronex.CRM.Application/Aavronex.CRM.Application.csproj" />
+  <Project Path="src/Modules/CRM/Aavronex.CRM.Infrastructure/Aavronex.CRM.Infrastructure.csproj" />
+  
+  <!-- HR Module -->
+  <Project Path="src/Modules/HR/Aavronex.HR/Aavronex.HR.csproj" />
+  <Project Path="src/Modules/HR/Aavronex.HR.Domain/Aavronex.HR.Domain.csproj" />
+  <Project Path="src/Modules/HR/Aavronex.HR.Application/Aavronex.HR.Application.csproj" />
+  <Project Path="src/Modules/HR/Aavronex.HR.Infrastructure/Aavronex.HR.Infrastructure.csproj" />
+  
+  <!-- API Gateway -->
+  <Project Path="src/Gateway/Aavronex.API/Aavronex.API.csproj" />
 </Solution>
