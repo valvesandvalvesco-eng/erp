@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Aavronex.Inventory</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add project references to shared libraries if needed in the future -->
+    <!-- <ProjectReference Include="../../../../Shared/Aavronex.Core/Aavronex.Core.csproj" /> -->
+  </ItemGroup>
+</Project>
