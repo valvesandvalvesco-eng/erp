@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Aavronex.Accounting</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference shared libraries when needed -->
+    <!-- <ProjectReference Include="../../../../Shared/Aavronex.Core/Aavronex.Core.csproj" /> -->
+    <!-- <ProjectReference Include="../../../../Shared/Aavronex.Common/Aavronex.Common.csproj" /> -->
+    <!-- <ProjectReference Include="../../../../Shared/Aavronex.Data/Aavronex.Data.csproj" /> -->
+  </ItemGroup>
+</Project>

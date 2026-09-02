@@ -25,6 +25,15 @@
   <!-- Inventory Module -->
   <Project Path="src/Modules/Inventory/Aavronex.Inventory/Aavronex.Inventory.csproj" />
 
+  <!-- Billing Module -->
+  <Project Path="src/Modules/Billing/Aavronex.Billing/Aavronex.Billing.csproj" />
+
+  <!-- Accounting Module -->
+  <Project Path="src/Modules/Accounting/Aavronex.Accounting/Aavronex.Accounting.csproj" />
+
+  <!-- Product Module -->
+  <Project Path="src/Modules/Product/Aavronex.Product/Aavronex.Product.csproj" />
+
   <!-- API Gateway -->
   <Project Path="src/Gateway/Aavronex.API/Aavronex.API.csproj" />
 </Solution>
